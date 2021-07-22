@@ -13,7 +13,7 @@ from calibre import as_unicode
 
 import re
 import json
-from urllib import urlencode
+from urllib.parse import urlencode
 
 def to_metadata(log,gmetadata,ExHentai_Status): # {{{
     title = gmetadata['title']
